@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tags">
+      <item>Restaurant</item>
+      <item>Cinema</item>
+      <item>Theater</item>
+      <item>Park</item>
+      <item>Museum</item>
+      <item>Shopping mall</item>
+   </string-array>  
+</resources>

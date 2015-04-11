@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_menus">
+       
+    <EditText
+        android:id="@+id/meeting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/descrp2"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="10"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:imeOptions="actionDone" />
+       
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10dp">
+        <TextView 
+            android:layout_width="0dip"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:id="@+id/txtDate"
+            android:text="@string/date">
+            <requestFocus/>
+        </TextView>
+        <Button 
+            android:layout_height="wrap_content"
+            android:layout_weight="0" 
+            android:id="@+id/btnCalendar" 
+            android:text="@string/b_date"
+            android:layout_width="100dp">
+        </Button>
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10dp">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:inputType="none"
+            android:id="@+id/txtTime"
+            android:text="@string/time">
+            <requestFocus/>
+        </TextView>
+        <Button 
+            android:layout_height="wrap_content"
+            android:layout_weight="0" 
+            android:id="@+id/btnTimePicker"
+            android:text="@string/alarm" 
+            android:layout_width="100dp">
+        </Button>
+    </LinearLayout>
+       
+       <Button 
+        android:id="@+id/btnDone"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:text="@string/done" />
+        
+</LinearLayout>

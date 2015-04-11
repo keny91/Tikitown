@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appMovil.tikitown"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.SHAKE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Recolor" >
+        
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDhFNroT8VFhg9Vbp2egMKXiHy8KAr6L54" />
+
+        <activity
+            android:name="com.appMovil.tikitown.DataActivity"
+            android:label="@string/title_activity_data"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Recolor" />
+        
+        <activity
+            android:name="com.appMovil.tikitown.DataShow"
+            android:label="@string/title_activity_data_show"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Recolor" />
+        
+        <activity
+            android:name="com.appMovil.tikitown.MainMenu"
+            android:theme="@style/Theme.Recolor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.appMovil.tikitown.AddingNewPlace"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Recolor" />
+       
+        <activity
+            android:name="com.appMovil.tikitown.PreferenceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Recolor" />
+        
+        <activity android:name="com.appMovil.tikitown.MapsActivity" />
+
+        <activity
+            android:name="com.appMovil.tikitown.AddingNewMeeting"
+            android:label="Meeting"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Recolor" />
+
+        <service
+            android:name="com.appMovil.tikitown.AlarmService"/>
+
+        <receiver android:name="com.appMovil.tikitown.Receiver" 
+            android:enabled="true"/>
+
+        <activity android:name="com.appMovil.tikitown.MeetingNot"
+             android:theme="@style/Theme.Recolor"/>
+        
+        <activity
+            android:name="com.appMovil.tikitown.RouteTracer"
+            android:theme="@style/Theme.Recolor" />
+        
+        <activity
+            android:name="com.appMovil.tikitown.SearchByText"
+            android:label="@string/title_activity_search_by_text"
+            android:theme="@style/Theme.Recolor"/>
+        
+        <activity
+            android:name="com.appMovil.tikitown.SearchResult"
+            android:label="@string/title_activity_search_result" 
+            android:theme="@style/Theme.Recolor"/>
+
+        <service android:name="LocLisServ" 
+            android:label="@string/title_activity_loc_lis_serv"/>
+        
+    </application>
+
+</manifest>

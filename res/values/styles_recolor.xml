@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <style name="Theme.Recolor" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_recolor</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Recolor</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Recolor</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Recolor</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Recolor</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Recolor</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_recolor</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_recolor</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Recolor</item>
+        
+        
+    </style>
+
+    <style name="ActionBar.Solid.Recolor" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_recolor</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_recolor</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_recolor</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Recolor</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Recolor" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_recolor</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Recolor</item>
+    </style>
+
+    <style name="PopupMenu.Recolor" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_recolor</item>	
+    </style>
+
+    <style name="DropDownListView.Recolor" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_recolor</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Recolor" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_recolor</item>
+    </style>
+
+    <style name="DropDownNav.Recolor" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_recolor</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_recolor</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_recolor</item>
+    </style>
+    
+    <style name="ProgressBar.Recolor" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_recolor</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Recolor" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_recolor</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Recolor.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Recolor</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Recolor</item>
+    </style>
+
+</resources>

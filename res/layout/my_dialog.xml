@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:paddingLeft="5dp" >
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_restaurant"
+            android:textAppearance="?android:attr/textAppearanceLargePopupMenu" />
+        
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_cinema"
+            android:textAppearance="?android:attr/textAppearanceLargePopupMenu" />
+        
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_shopping_mall"
+            android:textAppearance="?android:attr/textAppearanceLargePopupMenu" />
+        
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_spa"
+            android:textAppearance="?android:attr/textAppearanceLargePopupMenu" />
+        
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_theater"
+            android:textAppearance="?android:attr/textAppearanceLargePopupMenu" />
+        
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_disco"
+            android:textAppearance="?android:attr/textAppearanceLargePopupMenu" />
+        
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_cafe"
+            android:textAppearance="?android:attr/textAppearanceLargePopupMenu" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_park"
+            android:textAppearance="?android:attr/textAppearanceLargePopupMenu" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal" 
+            android:paddingBottom="14dp">
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:minHeight="50dp"
+                android:text="@string/b_ok"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:width="100dp" 
+                android:paddingLeft="20dp" 
+                />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:text="@string/b_cancel"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:width="100dp"
+                android:layout_marginLeft="15dp" />
+        </LinearLayout>
+        
+    </LinearLayout>
+</LinearLayout>
+
+

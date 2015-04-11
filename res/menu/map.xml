@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appMovil.tikitown.MapsActivity" >
+
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/list_places"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="@string/list_settings"/>
+    
+    <item
+        android:id="@+id/filter_settings"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/filter_settings"/>
+
+</menu>

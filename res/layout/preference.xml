@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menus"
+    android:screenOrientation="portrait"
+    tools:context=".PreferenceActivity" >
+
+    <fragment
+        android:id="@+id/preference"
+        android:name="com.appMovil.tikitown.PrefsFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preference"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/radius_tittle"
+            android:textSize="19sp"
+            android:layout_marginLeft="8dp" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/explanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tittle"
+            android:text="@string/radius_explanation"
+            android:textSize="13sp"
+            android:layout_marginLeft="8dp"  >
+
+        </TextView>
+
+		<TextView
+		    android:id="@+id/seekBarPrefValue"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/explanation"
+		    android:layout_centerHorizontal="true"
+		    android:paddingBottom="5dp"
+		    android:textSize="18dp"
+		    android:paddingTop="5dp" />
+
+        <TextView
+            android:id="@+id/seekBarPrefUnitsLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/seekBarPrefValue"
+            android:layout_centerVertical="true"
+            android:textSize="13dp" 
+            android:layout_marginLeft="8dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/seekBarPrefUnitsRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/seekBarPrefValue"
+            android:layout_centerInParent="true"
+            android:textSize="13dp"
+            android:layout_marginRight="8dp" >
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/seekBarPrefBarContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/seekBarPrefUnitsRight"
+            android:orientation="horizontal" 
+            android:paddingTop="8dp" >
+
+            <SeekBar
+                android:id="@+id/seekBarPrefSeekBar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

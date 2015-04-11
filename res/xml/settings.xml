@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?> 
+	<PreferenceScreen 
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:key="PREFERENCE"
+	    android:layout_width="wrap_content">
+	    
+	    <PreferenceCategory 
+	        android:title="Preferences"/>
+	    <CheckBoxPreference 
+	        android:key="PREF_FACEBOOK" 
+	        android:title="Connect Facebook" 
+	        android:summary="Allows facebook sharing service" 
+	        android:defaultValue="false" 
+	     />
+	    
+	    <ListPreference
+  			android:key="PREF_LANGUAGE"
+   			android:title="Language"
+   			android:summary="Change the language"
+   			android:dialogTitle="Please, select the language"
+   			android:entries="@array/language"
+   			android:entryValues="@array/countrycode" 
+   		/>
+	    
+	    <CheckBoxPreference 
+	        android:key="PREF_GPS" 
+	        android:title="Connect GPS" 
+	        android:summary="Allows location by GPS" 
+	        android:defaultValue="false" 
+	     />
+	    
+	    <CheckBoxPreference 
+	        android:key="PREF_SOUND" 
+	        android:title="Sound" 
+	        android:summary="Silence sounds" 
+	        android:defaultValue="false" 
+	     />
+   		
+ </PreferenceScreen>

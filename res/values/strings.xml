@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TikiTown</string>
+    <string name="refresh_settings">Refresh List</string>
+    <string name="filter_settings">Filters</string>
+    <string name="list_settings">Places List</string>
+    <string name="action_settings">Settings</string>
+    <string name="rotulo">Bienvenido a TikiTown</string>
+    <string name="main">cover</string>
+
+    <!-- Strings for -->
+    <string name="filter_restaurant">Restaurants</string>
+    <string name="filter_cinema">Cinemas</string>
+    <string name="filter_theater">Theaters</string>
+    <string name="filter_museum">Museums</string>
+    <string name="filter_shopping_mall">Shopping Mall</string>
+    <string name="filter_subway">Subway Stations</string>
+    <string name="filter_disco">Disco</string>
+    <string name="filter_cafe">Cafe</string>
+    <string name="filter_spa">Spa</string>
+    <string name="filter_park">Park</string>
+    <string name="dialog_name">What are you looking for?</string>
+    <string name="b_ok">OK</string>
+    <string name="b_cancel">Cancel</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="title_activity_data_show">DataShow</string>
+    <string name="add_settings">Add Place</string>
+    <string name="delete_settings">Delete DB</string>
+    <string name="options">OPTIONS</string>
+    <string name="facebox">Connect facebook</string>
+    <string name="favorite_list">Remove favorite list</string>
+    <string name="language">Language</string>
+    <string name="gps_scanning">Disable GPS scanning</string>
+    <string name="sound">Disable sound</string>
+    <string name="radius">Scanning radius</string>
+    <string name="aboutUs">About us</string>
+    <string name="removing_list">Are you sure to delete your favorite list?</string>
+    <string name="title">Name of the place</string>
+    <string name="descrp">Write a brief description for the place</string>
+    <string name="img_descrp">Place Image</string>
+    <string name="tags">Tags</string>
+    <string name="b_delete">Delete</string>
+    <string name="b_meeting">Meetting</string>
+    <string name="b_goto">Go to</string>
+    <string name="done">Done</string>
+    <string name="find">Find</string>
+    <string name="hint">Hint</string>
+    <string name="descrp2">Write a brief description for the meeting</string>
+    <string name="pick_time">Set time</string>
+    <string name="alarm_time">Set alarm</string>
+    <string name="c_option">Choose option</string>
+    <string name="set_place">Set place</string>
+    <string name="address">Place address</string>
+    <string name="alarm">Set Alarm</string>
+    <string name="b_date">Set Date</string>
+    <string name="radius_tittle">Radius</string>
+    <string name="radius_explanation">Choose the search radius</string>
+    
+    <string name="desPlace">Reviews of the place</string>
+    
+    <string name="time">00:00</string>
+    <string name="date">01-01-2014</string>
+   
+    
+    <string name="title_activity_search_by_text">SearchByText</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_search_result">SearchResult</string>
+    
+    <string name="title_activity_loc_lis_serv">LocLisServ</string>
+    <string name="stop">Stop</string>
+    <string name="distancia">Distance</string>
+    
+
+</resources>
